@@ -1,10 +1,10 @@
 import Note from './Note'
-import './App.css'
+import './index.css'
 
 function App({notes}) {
   return (
     <div className="App">
-      <h1>Renderizando un Array</h1>
+      <h1>Renderizando un Array en ReactJS</h1>
       <ol className="NotesList">
         {notes.map((note) => (
           <Note key={note.id} note={note} />
