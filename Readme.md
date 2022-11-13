@@ -13,4 +13,4 @@ Venimos de 👉 [Tutorial ReactJS I](https://github.com/HugoLebredo/react_tutori
 
 | Ejercicio | Descripción | Enlace |
 | -- | -- | -- |
-| [**Ejercicio1**](https://github.com/HugoLebredo/react_tutorial_2/tree/ejercicio1) | Crear un contador. | [![codesandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/github/HugoLebredo/react_tutorial_2/ejercicio1)|
+| [**Ejercicio1**](https://github.com/HugoLebredo/react_tutorial_2/tree/ejercicio1) | Renderizar un array de objetos. | [![codesandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/github/HugoLebredo/react_tutorial_2/ejercicio1)|
