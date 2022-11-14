@@ -2,8 +2,7 @@ import react from "react";
 
 const Note = ({ note }) => (
   <li>
-    <h4>{note.content}</h4>
-    <time>{note.date}</time>
+    <p>{`💬 ${note.content} ⏰ ${note.date}`}</p>
   </li>
 );
 
