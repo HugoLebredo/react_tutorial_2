@@ -16,3 +16,18 @@ Venimos de 👉 [Tutorial ReactJS I](https://github.com/HugoLebredo/react_tutori
 | [**Ejercicio1**](https://github.com/HugoLebredo/react_tutorial_2/tree/ejercicio1) | Renderizar un array de objetos. | [![codesandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/github/HugoLebredo/react_tutorial_2/ejercicio1)|
 | [**Ejercicio2**](https://github.com/HugoLebredo/react_tutorial_2/tree/ejercicio2) | Refactor del array del ejercicio anterior utilizando [**template literals**](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Template_literals). | [![codesandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/github/HugoLebredo/react_tutorial_2/ejercicio2)|
 | [**Ejercicio3**](https://github.com/HugoLebredo/react_tutorial_2/tree/ejercicio3) | Añadir un elemento al array de objetos. | [![codesandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/github/HugoLebredo/react_tutorial_2/ejercicio3)|
+| [**Ejercicio4**](https://github.com/HugoLebredo/react_tutorial_2/tree/ejercicio4) | Añadir un elemento al array de objetos. | [![codesandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/github/HugoLebredo/react_tutorial_2/ejercicio4)|
+
+## Desplegar en local
+Esta aplicación ha sido creada con [vite ⚡️](https://vitejs.dev/). Para desplegar el código localmente utiliza los siguientes comandos.
+
+```bash
+# Nos movemos a la carpeta de nuestro proyecto
+cd my-project
+
+# Instalamos las dependencias del package.json
+npm install
+
+# Iniciamos el proyecto
+npm run dev
+```
