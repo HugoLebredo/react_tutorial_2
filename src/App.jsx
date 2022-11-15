@@ -32,8 +32,10 @@ export default function App({ notes }) {
           <Note key={note.id} note={note} />
         ))}
       </ol>
-      <input type="text" value={newNote} onChange={handleChange}></input>
-      <button onClick={handleClick}>Add note</button>
+      <div>
+        <input type="text" value={newNote} onChange={handleChange}></input>
+        <button onClick={handleClick}>Add note</button>
+      </div>
     </div>
   );
 }
