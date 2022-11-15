@@ -1,19 +1,18 @@
-import { useState } from 'react';
-import Note from './Note'
-import './index.css'
+import { useState } from "react";
+import Note from "./Note.jsx";
+//import "./styles.css";
 
 export default function App({ notes }) {
-
   const [arrayNotes, setArrayNotes] = useState(notes);
   const [newNote, setNewNote] = useState("");
-
-  console.log({arrayNotes})
 
   const handleChange = (e) => {
     setNewNote(e.target.value);
   };
 
-  const handleClick = (e) => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
     const noteToAdd = {
       id: arrayNotes.length + 1,
       content: newNote,
@@ -22,18 +21,22 @@ export default function App({ notes }) {
     };
 
     setArrayNotes([...arrayNotes, noteToAdd]);
+
+    setNewNote("")
   };
 
   return (
     <div className="App">
-      <h1>Añadir un registro al Array</h1>
+      <h1>Añadir un registro al Array usando un Formulario</h1>
       <ol className="NotesList">
         {arrayNotes.map((note) => (
           <Note key={note.id} note={note} />
         ))}
       </ol>
-      <input type="text" value={newNote} onChange={handleChange}></input>
-      <button onClick={handleClick}>Add note</button>
+      <form onSubmit={handleSubmit}>
+        <input type="text" value={newNote} onChange={handleChange}></input>
+        <button>Add note</button>
+      </form>
     </div>
   );
 }
