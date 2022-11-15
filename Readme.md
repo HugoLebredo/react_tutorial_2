@@ -1,10 +1,11 @@
-# Ejercicio 3
+# Ejercicio 4
+
+Vamos a refactorizar el código del ejercicio anterior. Utilizaremos un formulario (`<form>`) para envolver nuestra etiqueta `<input>` y el botón para mejorar la usabilidad de nuestro código. Además vamos a resetear el input cada vez que añadamos una nueva nota al array forzando un reseteando el estado de la nota.
+
 Puedes desplegar este ejercicio desplegado aqui:
 
 [![codesandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/github/HugoLebredo/react_tutorial_2/ejercicio4)
 
-# Ejercicio 4
-Utilización de formularios
 
 ## Explicación 📓
 
