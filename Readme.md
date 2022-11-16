@@ -6,7 +6,6 @@ Puedes desplegar este ejercicio desplegado aqui:
 
 [![codesandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/github/HugoLebredo/react_tutorial_2/ejercicio4)
 
-
 ## Explicación 📓
 
 Es una buena práctica utilizar **formularios**, aunque sea en este minúsculo ejercicio. 
